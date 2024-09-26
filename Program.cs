@@ -3,7 +3,7 @@
     internal class Program
     {
 
-        public static void Aareena()
+        private static void Aareena()
         {
             Console.WriteLine("Hey Bro!! everything up to date");
         }
@@ -40,6 +40,7 @@
         {
             Aareena();
             Clarissa();
+           
         }
     }
 }
