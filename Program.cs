@@ -6,6 +6,24 @@
         public static void Aareena()
         {
             Console.WriteLine("Hey Bro!! everything up to");
+
+            int num;
+            string tempt;
+
+            Console.WriteLine("Enter a number.");
+            tempt = Console.ReadLine();
+            num = Convert.ToInt32(tempt);
+
+
+            if (num % 2  == 0)
+            {
+                Console.WriteLine(" Your number is an even number. ");
+            }
+            else
+            {
+                Console.WriteLine(" The number you entered is odd. ");
+               
+            }
         }
 
         public static void Clarissa()
