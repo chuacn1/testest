@@ -24,6 +24,7 @@
                 Console.WriteLine(" The number you entered is odd. ");
                
             }
+            Console.ReadLine();
         }
 
         public static void Clarissa()
